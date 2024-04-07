@@ -1,0 +1,12 @@
+
+
+class 6中的 代码运行报错
+
+p15_rnn_onehot_1pre1中的代码 报错，报错最后一行为
+
+AttributeError: 'NoneType' object has no attribute 'dtype'
+
+为了解决这个问题，可以尝试下面的方法（bilibili 评论中的内容）
+这个问题我也遇到了可以给后来的一个参考，numpy版本过高,conda安装指定版本的numpy,1.19.5即可解决问题
+conda search numpy
+conda install numpy=1.19.5 -c conda-forge
